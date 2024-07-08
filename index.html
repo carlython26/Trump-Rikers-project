@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Story template</title>
+    <title>Trump's Rikers</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,101 +12,126 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-size: 20px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-rendering: optimizeLegibility;
-        }
-
-        .content {
-            max-width: 640px;
-            margin: auto;
-        }
-
-        .header {
-            padding: 3em 0;
-        }
-
-        a {
-            color: #f05349;
-        }
-
-        .footer {
-            background: #f4f4f4;
-            text-align: center;
-            font-size: 0.8em;
-            margin-top: 4em;
-            padding: 4em 0;
-        }
-
-        figure {
-            margin: 0;
-            padding-bottom: 1.2em;
-        }
-
-        figcaption {
-            font-size: 0.8em;
-            text-align: center;
-            margin-top: 0.5em;
-            color: #666;
-        }
-
-        h1 {
-            font-family: 'Lora', Georgia, serif;
-            font-weight: bold;
-            font-size: 3em;
-            line-height: 1.1;
-        }
-
-        .subhead {
-            font-family: 'Lora', Georgia, serif;
-        }
-
-        .full-width figure {
-            text-align: center;
-        }
-
-        iframe,
-        img,
-        video {
-            max-width: 100%;
-        }
-
-        p {
-            line-height: 1.6;
-            margin: 0;
-            padding-bottom: 1.2em;
-        }
-
-        ul {
-            margin: 0;
-            padding-bottom: 1em;
-            line-height: 1.6;
-        }
-
-        iframe {
-            padding-bottom: 1.2em;
-        }
-
-        code {
-            font-family: 'Courier New', monospace;
-            background: #fff880;
-        }
-
-        /* margin on mobile */
-        @media (max-width: 640px) {
+    
+        <style>
             body {
-                font-size: 18px;
+                margin: 0;
+                font-size: 20px;
+                font-family: 'Albert Sans', sans-serif;
+                text-rendering: optimizeLegibility;
+                background-color: white;
             }
-
+    
             .content {
-                padding-left: 0.5em;
-                padding-right: 0.5em;
+                max-width: 640px;
+                margin: auto;
             }
-        }
-    </style>
+    
+            .header {
+                padding: 3em 0;
+            }
+    
+            a {
+                color: #0000EE;
+            }
+    
+            .footer {
+                background: #f4f4f4;
+                text-align: center;
+                font-size: 0.8em;
+                margin-top: 4em;
+                padding: 4em 0;
+            }
+    
+            figure {
+                padding-bottom: 1.2em;
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            figcaption {
+                font-size: 0.8em;
+                text-align: center;
+                margin-top: 0.5em;
+                color: #666;
+            }
+    
+            h1 {
+                font-family: 'Tinos', Georgia, serif;
+                font-size: 3em;
+                line-height: 1.1;
+                text-align: center;
+                font-weight: 500;
+                text-rendering: optimizeLegibility;
+            }
+    
+            .subhead {
+                font-family: 'Albert Sans', sans-serif;
+                text-align: left;
+                margin-top: 0.5em;
+    
+    
+            }
+    
+            .byline {
+                font-family: 'Albert Sans', sans-serif;
+                font-size: 1em;
+                text-align: left;
+                margin-top: 0.5em;
+                font-weight: 500;
+            }
+    
+            .full-width {
+                margin: 0;
+                padding: 0;
+                max-width: 100%;
+                margin: auto;
+    
+            }
+    
+            iframe,
+            img,
+            video {
+                max-width: 100%;
+                object-fit: cover;
+    
+            }
+    
+            p {
+                line-height: 1.6;
+                margin: 0;
+                padding-bottom: 1.2em;
+            }
+    
+            ul {
+                margin: 0;
+                padding-bottom: 1em;
+                line-height: 1.6;
+            }
+    
+            iframe {
+                padding-bottom: 1.2em;
+            }
+    
+            code {
+                font-family: 'Courier New', monospace;
+                background: #fffbaf;
+                font-size: 0.85em;
+            }
+    
+            /* margin on mobile */
+            @media (max-width: 640px) {
+                body {
+                    font-size: 18px;
+                }
+    
+                .content {
+                    padding-left: 0.5em;
+                    padding-right: 0.5em;
+                }
+            }
+        </style>
+        
     <style>
         .with-image-bg,
         .with-video-bg {
@@ -127,7 +152,7 @@
         }
 
         .with-image-bg {
-            background-image: url('solitary-cell.jpeg');
+            background-image: url('solitary.jpeg');
         }
 
         .video-background {
@@ -149,47 +174,72 @@
 <body>
     <div class="header with-image-bg">
         <div class="content">
-            <h1>From Trump Towers to Rikers Island?</h1>
-            <p class="subhead">If former President Donald Trump is sentenced to do time in New York’s infamous Rikers prison, what would his time be like? This data analysis gives us a glimpse.</p>
+            <h1>From the Trump Towers to Rikers Island?</h1>
+            <p class="subhead">If Donald Trump is sentenced to do time in New York’s infamous Rikers prison, what would it be like? This data analysis gives a glimpse.</p>
+            <figcaption>
+                <span class="caption">Solitary Cell at Rikers, 20-10-11 04.</span>
+                <span class="photo-credit">Photo: Felton Davis </span>
+            </figcaption>
         </div>
     </div>
     <div class="content">
-        <div class="byline">
+        <div class="byline"> 
             <p>By <a href="https://www.linkedin.com/in/carli-kooijman-1386651a4/">Carli Kooijman</a></p>
         </div>
-        <p>We had to create another <code>class="content"</code> before the byline/after the header so everything would
-            line up okay.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.</p>
+        <p>May 31st was a historic day: Donald Trump became the first US president to be convicted of a crime. A New York jury found him guilty for paying hush money to porn actress Stormy Daniels and falsifying business records to cover it up ahead of the 2016 election.</p>
+        <p>It is unclear if and where Trump would go to prison: sentencing is <a href="https://www.nbcnews.com/politics/donald-trump/judge-trumps-hush-money-trial-delays-sentencing-supreme-court-immunity-rcna160028">delayed</a> until mid-September. However, Rikers island is a <a href="https://www.cbsnews.com/news/donald-trump-convicted-prison-sentence-new-york-criminal-trial/">realistic</a> option, especially if his sentence is shorter than a year. Mayor Eric Adams has already <a href="https://www.politico.com/live-updates/2024/05/07/trump-hush-money-criminal-trial/nyc-preps-for-potential-trump-jailing-00156599" >said</a> the facility is "ready" to receive mister Trump.</p>
+        <p>This story explores what his day-to-day prison life could be like, from potential prison wives to the possibility of finding bunkmates his age, based on the NYC OpenData <a href="https://data.cityofnewyork.us/Public-Safety/Daily-Inmates-In-Custody/7479-ugqb/about_data"> Daily Inmate Population Database</a>. The data is from July first 2024, when Rikers counted almost 6500 prisoners.</p>
+        
     </div>
 
-    <div class="header with-video-bg">
-        <div class="video-background">
-            <video src="bg-video.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
-        </div>
-        <div class="content">
-            <h1>Here is a header with a video background</h1>
-            <p class="subhead">Unlike the "basic" template, the header text is INSIDE of a .content class so it doesn't
-                get too
-                wide</p>
-        </div>
-    </div>
     <div class="content">
-        <div class="byline">
-            <p>By <a href="https://jonathansoma.com">Jonathan Soma</a></p>
-        </div>
-        <p>We had to create another <code>class="content"</code> before the byline/after the header so everything would
-            line up okay.</p>
-        <p>You can use this for things other than headers if you want, too.</p>
+        <p><strong>Oldest prisoner?</strong></p>
+        <p>You have likely heard that Trump and Biden, at 77 and 81 respectively, are their parties' oldest nominees. But did you know Trump might be one of the oldest Rikers prisoners as well?</p>
+        <img src="age_hist_two.svg" alt="A histogram showing the age distribution in Rikers.">
+        <p></p>
+        <p>Trump would make the top five oldest prisoners. However, there are still three people who are his senior: two 84-year-old men and the 86-year-old matriarch convicted of murder.</p>
+
     </div>
-    <div class="footer">
-        <div class="content">
-            <p>You can find the code for this template <a href="https://github.com/jsoma/page-templates/">here</a>.
-                Delete these lines
-                when you use it, and don't forget to change the <code>title</code> tag!!!</p>
-        </div>
+
+    <div class="content">
+        <p><strong>Prison wife pool</strong></p>
+        <p>Technically, male and female prisoners are separated in Rikers prison. But would it be unlike Trump to try to get around that somehow to get a prison wife? </p>
+        <p>Of course, Trump wouldn't just try and date anyone. In 2002, the then 56-year-old said that he typically dumps girlfriends <a href="https://www.huffingtonpost.co.uk/entry/donald-trump-howard-stern-tapes-women-35_uk_57fa46e1e4b01fa2b904368b" >at 35</a>, because they have "too much life experience." His wife Melania seems to be an exception. How many Rikers prisoners fit Trump's criteria? </p>
+        <img src="Dating_pool_trump_finalone.jpg" alt="Trump's age bracket in prison.">
+        <p></p>
+        <p>Therefore, even if his wife leaves him if he goes behind bars, there are quite some fish in Trump's preferred pool: 190 to be precise.</p>
+
     </div>
+
+    <div class="content">
+        <p><strong>Bunkmate battle</strong></p>
+        <p>While he calls himself "the least racist person," others say Trump has a <a href="https://www.vox.com/2016/7/25/12270880/donald-trump-racist-racism-history">a long history</a> of racist comments. In Rikers, this may not land well.</p>
+        <img src="race_rikers.jpg" alt="The race distribution in Rikers.">
+        <p>There is an over 90 percent chance that Trump will get a non-White bunkmate. That he once <a href="https://www.politico.eu/article/15-most-offensive-things-trump-campaign-feminism-migration-racism/">said</a>: "Laziness is a trait in blacks. It really is, I believe that," is not the best start to a lifelong friendship.</p>
+
+    </div>
+
+    <div class="content">
+        <p><strong>Partner in crime?</strong></p>
+        <p>Most criminals in Rikers aren't there for the same reason as Trump would be: an offense involving false written statements. Rather, the most common reason to end up in Rikers is (attempted) murder.</p>
+        <img src="crimes_rikers.jpg" alt="The most committed crimes in Rikers.">
+        <p>As per July 1, 2024, only one other prisoner was in Rikers for a similar crime as Trump. This prisoner is a 45-year-old man with mental health issues who entered Rikers late June. Perhaps the two will become partners in crime...</p>
+
+    </div>
+
+<div>
+    <img src="trump_bars.JPG" alt="Trump poster behind window bars in NYC">
+    <figcaption>
+        <span class="caption">Trump poster behind window bars in NYC, August 2023.</span>
+        <span class="photo-credit">Photo: Carli Kooijman </span>
+    </figcaption>
+
+</div>
+
+<div class="content">
+    <p></p>
+    <p>To be sure, no-one knows if Trump will end up Rikers yet. But if he does, his team of secret service agents would be well-advised to take this analysis into consideration ;) </p>
+</div>
 
 </body>
 
