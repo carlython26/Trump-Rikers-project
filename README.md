@@ -1,6 +1,4 @@
 # Trump's Rikers
-## Note:
-* index2.html is the correct file
 ## Aim:
 * Is there a way to find out more about what Trump's time would be like in prison, if he were convicted?
 ## Data collection:
